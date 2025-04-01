@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" href="/img/icon1.png" type="image/x-icon">
+    <title>Spotify</title>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo">
+      <a href="index.html">
+        <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Logo" />
+      </a>
+    </div>
+
+    <div class="navigation">
+      <ul>
+        <li><a href="index.html"><span class="fa fa-home"></span> <span>Inicio</span></a></li>
+        <li><a href="#search-container"><span class="fa fa-search"></span> <span>Buscar</span></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="main-content">
+    <div class="search-container" id="search-container">
+      <input type="text" id="searchInput" placeholder="Buscar artistas, álbumes o canciones">
+      <button id="searchButton">Buscar</button>
+    </div>
+
+    <div id="artistContainer" class="artist-container"></div>
+    <div id="resultContainer" class="albums-container"></div>
+    <button id="verMas">Ver más canciones</button>
+   
+
+  </div>
+    
+  <script
+      src="https://kit.fontawesome.com/23cecef777.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://kit.fontawesome.com/af72f7b60e.js" crossorigin="anonymous"></script>
+
+  <script src="/app.js"></script>
+</body>
+</html>
